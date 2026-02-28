@@ -25,10 +25,6 @@ blockquote {
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
-
 img {
   width: 100%;
 }
@@ -49,6 +45,9 @@ html, body {
   font-family: 'Raleway-Regular', sans-serif;
   color: #000000;
   background-color: #fff;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 a {
@@ -63,9 +62,7 @@ ul, ol {
 
 
 body {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+
 }
 
 h2 {
