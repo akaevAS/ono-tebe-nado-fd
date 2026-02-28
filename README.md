@@ -1,1 +1,1 @@
-git@github.com:akaevAS/ono-tebe-nado-fd.git
+https://github.com/akaevAS/ono-tebe-nado-fd/tree/main
