@@ -1,0 +1,1 @@
+git@github.com:akaevAS/ono-tebe-nado-fd.git
