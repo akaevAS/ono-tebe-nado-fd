@@ -181,7 +181,6 @@ body {
   flex-direction: column;
   box-sizing: border-box;
   justify-content: space-between;
-  height: 100%;
   width: 334px;
   height: 596px;
 }
@@ -302,10 +301,6 @@ body {
   align-items: center;
   justify-self: center;
   font-size: 18px;
-}
-
-.footer__menu-item-active {
-  text-decoration: none;
 }
 
 .footer__menu-item {
