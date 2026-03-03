@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо</title>
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item-active">
-            <a class="header__menu-link" href="#0"> главная </a>
+          <li class="header__menu-item header__menu-item_no-bullet">
+            <a class="header__menu-link menu__link-active" href="#">
+              главная
+            </a>
           </li>
           <li class="header__menu-item">
             <a class="header__menu-link" href="#0"> посмотреть лоты </a>
@@ -28,9 +30,7 @@
       </a>
       <address class="header__address">
         <a class="address__item" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address__item" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a
-        >
+        <a class="address__item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address__item-real">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
@@ -43,57 +43,57 @@
           <span class="cover__title-right">надо</span>
         </h1>
         <div class="cover__description">
-          аукцион вещей, в которые никто не верил
+          <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
           <a class="cover__description-button" href="#0">сделать ставку</a>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__title">лоты</h2>
         <ul class="lots__card-list">
-          <li class="card__type-movie">
-            <a class="card-link" href="#0">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                фильм режиссера, который бросил киношколу
-              </h3>
-              <article class="card__text">
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+
+          <li class="card card_type_movie">
+            <a class="card__link" href="#">
+              <article class="card__content">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  фильм режиссера, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                </p>
+                </article>
+            </a>
+          </li>
+
+          <li class="card card_type_book">
+            <a class="card__link" href="#">
+              <article class="card__content">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+                </p>
               </article>
             </a>
           </li>
-          <li class="card__type-book">
-            <a class="card-link" href="#0">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                книга, где описан один скучный день из жизни рекламного агента
-              </h3>
-              <article class="card__text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
-                переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на эпическую
-                поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса
-                Джойса?
+
+          <li class="card card_type_picture">
+            <a class="card__link" href="#">
+              <article class="card__content">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+                </p>
               </article>
             </a>
           </li>
-          <li class="card__type-picture">
-            <a class="card-link" href="#0">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                картина, которую повторит даже 5-летний сын маминой подруги
-              </h3>
-              <article class="card__text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </article>
-            </a>
-          </li>
-        </ul>
-        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
+
+        </ul>        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo">
@@ -133,8 +133,10 @@
       </address>
       <nav>
         <ul class="footer__menu-list">
-          <li class="footer__menu-item-active">
-            <a class="footer__menu-link" href="#0"> главная </a>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link menu__link-active" href="#">
+              главная
+            </a>
           </li>
           <li class="footer__menu-item">
             <a class="footer__menu-link" href="#0"> посмотреть лоты </a>
